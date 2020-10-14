@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Buddy</title>
+    <link rel="stylesheet" href="../styles/chatstyle.css">
+    
+</head>
+    <body>
+    <header>
+        <li class= "logo"><a href="index.html">logo</a></li>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chatter.html">Chat</a></li>
+            <li><a href="stuff.html">Content</a></li>
+            <li><a href="sesh.html">Planner</a></li>
+        </ul>
+    </nav>
+            <div class = 'chatContainer'>
+                <div class = 'chatHeader'>
+                    <h2>Buddy Up</h2>
+                </div>
+                <div class = 'chatMessages'></div>
+                <div class = 'chatBottom'>
+                <form action="#" onsubmit = 'return false;' id = 'chatform'>
+                    <input type="hidden" id = 'name' value = '<?php echo $user; ?>'>
+                    <input type="text" name ='text' id = 'text' value = '' placeholder = 'Type a message'>
+                    <input type="submit" name = "submit" value = 'Send'>
+                </div>
+                </form>
+            </div>
+            <footer>
+                <p><b>Study Buddy &nbsp &nbsp &nbsp &nbsp 29742-00202 Nairobi, Kenya &nbsp * &nbsp +254721951035</b></p>
+            </footer>
+    </body>
+</html>

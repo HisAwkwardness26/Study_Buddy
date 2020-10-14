@@ -1,0 +1,136 @@
+header{
+    background-color: rgb(0, 183, 255);
+    /* background-image: url('../images/study.png'); */
+    background-size: auto;
+    height: 150px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    text-align: center;
+    }
+
+header .logo a{
+        background-color: black;
+        width: 300px;
+        display: inline-block;
+        height: 150px;
+        background-image: url('../images/study.png');
+        background-size: 100%;
+        background-position: center;
+        text-indent: -999999999px;
+    }
+    
+a:hover{
+    text-decoration: underline;
+    }
+    
+body{
+        margin: 0px;
+        background-color: rgb(175, 175, 175);
+    }
+
+ul{
+        display: flex;
+        background-color: black;
+        padding: 10px;
+        margin: 0px;
+        color: white;
+        text-decoration: none;
+    }
+
+li{
+        display: inline-block;
+        margin: auto;
+        color: white;
+    }
+
+h1{
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 30px;
+        margin: 0px;
+        color: #017572;
+    }
+
+h3{
+        text-align: center;
+    }
+
+a{
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        }
+
+.features{
+        display:flex;
+        background:rgb(175, 175, 175);
+        flex-direction: row;
+        color: black;
+    }
+
+.features figure img{
+        border-radius: 10px;
+        width: 400px;
+        height: 400px;
+    }
+
+.content{
+        background-image: url("../images/boy.jpg");
+        background-size: 500px;
+        padding-left: 35%;
+        height: max-content;
+        background-repeat: no-repeat;
+        background-origin: initial;
+    }
+
+p{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    line-height: 1.55;
+    text-rendering: optimizeLegibility;
+}
+.login{
+        width: 450px;
+        text-align: center;
+        height: 200px;
+        margin-left: 275px;
+        margin-top: 30px;
+        color: #017572;
+        border-radius: 10px;
+    }
+
+.register2{
+    width: 450px;
+    height: 300px;
+    color: #017572;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-right: 180px;
+    float: right;
+}
+
+.teachreg{
+    background-image: url("../images/pretty.png");
+    padding-top: 30px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    padding-bottom: 800px;
+    position: relative;
+    background-position: top;
+}
+
+input{
+    background: transparent;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+footer{
+        background-color: rgb(0, 183, 255);
+        text-align: center;
+        padding: 7px;
+    }

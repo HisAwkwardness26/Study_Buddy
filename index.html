@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Buddy</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+    <body>
+    <header>
+        <li class= "logo"><a href="index.html">logo</a></li>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chatter.html">Chat</a></li>
+            <li><a href="stuff.html">Content</a></li>
+            <li><a href="sesh.html">Planner</a></li>
+        </ul>
+    </nav>
+
+    <div class= "content">
+        <h1>Welcome to Study Buddy... Your one stop for all your revision needs.</h1>
+        <p>Study Buddy is your one-stop destination in your journey in an attempt of creating better study habits for your education's prosperity. &nbsp;
+            It was designed to simplify student-tutor relations and tackles majority of the challenges faced by both parties in today's world.</p>
+        <fieldset class= "login">
+            <h2>Enter username and password</h2><br>
+            <form action="tutlogin.php" method="post">
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required autofocus><br><br>
+              
+                  <button type="submit" style="background-color: #017572;" style="border-radius:10px">Login</button>
+                </div>
+              </form>
+        </fieldset>
+           
+
+        <p><br><br>Don't have an account....click here to create an account.</p>
+        <button onclick= "location.href = 'registration.html';" id= "myButton" class= "float-left submit-button" style="background-color: #017572;">Sign Up</button>
+    </div>
+
+    <footer>
+    <p><b>Study Buddy &nbsp &nbsp &nbsp &nbsp 29742-00202 Nairobi, Kenya &nbsp * &nbsp +254721951035</b></p>
+    </footer>
+</body>
+</html>
